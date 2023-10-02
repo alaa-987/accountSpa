@@ -1,0 +1,42 @@
+.about{
+    background-color: #1ABC9C;
+    /* height: 90vh; */
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+.about-header{
+    text-align: center;
+}
+.about-header h2{
+    font-size: 43px;
+}
+.about-content p{
+    max-width: 700px;
+}
+.star{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
+  .text-home{
+    color: white !important;
+  }
+  .star::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    right: 100%;
+    top: 50%;
+    background-color: white;
+  }
+  .star::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    left: 100%;
+    top: 50%;
+    background-color: white;
+  }

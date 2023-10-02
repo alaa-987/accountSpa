@@ -1,0 +1,22 @@
+.navbar
+{
+    background-color: #2C3E50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin:0px 16px 0px 0px;
+    padding:5px 0px;
+    line-height: 48px;
+}
+.navbar-nav .nav-item{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.bg-color{
+    background-color: #1ABC9C;
+}

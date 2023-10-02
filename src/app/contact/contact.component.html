@@ -1,0 +1,27 @@
+<div class="container-fluid h-100 py-3">
+    <div class="contact h-100 ">
+        <h2 class="mt-5">CONATCT SECTION</h2>
+        <div class="star px-3 mb-2"><i class="fa-solid fa-star  text-home"></i></div>
+   <form class="h-100 forms py-4 col-md-5">
+    <div class="">
+        <label class="fs-5 bg-color px-3 opacity-0 animate__animated">userName :</label>
+        <input type="text" class="form-control  my-3 fs-4 border-0 border-bottom" placeholder="userName" (input)="showElement($event)">
+    </div>
+     <div class="">
+        <label class="fs-5 bg-color px-3 opacity-0 animate__animated mt-0">userAge :</label>
+        <input type="text" class="form-control  my-3 fs-4 border-0 border-bottom" placeholder="userAge" (input)="showElement($event)">
+     </div>
+
+    <div class="">
+        <label class="fs-5 bg-color px-3 opacity-0 animate__animated">userEmail :</label>
+    <input type="text" class="form-control py-3 my-3 fs-4 border-0 border-bottom" placeholder="userEmail" (input)="showElement($event)">
+    </div>
+    <div class="">
+    <label class="fs-5 bg-color px-3 opacity-0 animate__animated">userPassword :</label>
+    <input type="text" class="form-control py-3 my-3 fs-4 border-0 border-bottom" placeholder="userPassword" (input)="showElement($event)">
+    </div>
+
+    <button class="btn btn-info text-white my-4 fs-4">send Message</button>
+   </form>
+    </div>  
+</div>

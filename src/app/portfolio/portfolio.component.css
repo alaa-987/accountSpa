@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+    color: #2C3E50;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    cursor: pointer;
+}
+.img-layer{
+    background-color: #1abc9ce6;
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+    top: 0;
+    transition: 0.6s;
+    opacity: 0;
+}
+.port .img-layer:hover{
+    opacity: 1;
+}
+.popUp{
+    background-color: #C2DBFE;
+}
+.child{
+    width: 30%;
+    height: 400px;
+    background-color: tomato;
+}
+.star{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
+  .text-home{
+    color: #2C3E50 !important;
+  }
+  .star::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    right: 100%;
+    top: 50%;
+    background-color: #2C3E50;
+  }
+  .star::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    left: 100%;
+    top: 50%;
+    background-color:#2C3E50;
+  }
